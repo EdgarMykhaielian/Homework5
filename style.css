@@ -1,0 +1,127 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 1);
+}
+.container {
+    width: 1440px;
+    background-color: rgba(255, 255, 255, 1);
+  }
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 235px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+h3 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px; 
+    
+}
+p {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 30px;
+max-width: 480px;
+margin: 0 auto;
+}
+hr {
+    width: 970px;
+    background-color: #828282;
+    height: 1px;
+    border-style:none;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    margin: 25px 40px 25px 40px;
+    color: #828282;
+}
+a:link {
+    text-decoration: none;
+  }
+a:hover {
+    color: #070707;
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+    height: 497px;
+    object-fit: cover;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+.example {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+    height: 600px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+.aboutme {
+    background-color:#F6F6F6;
+    margin-top: 0;
+    height: 500px;
+}
+.row {
+    display: flex;
+    padding:50px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 80px;
+  }
+.portfolio {
+    background-color:#F6F6F6;
+    margin-top: 0;
+}
+.rowicon {
+    display: flex;
+    justify-content: center;
+    gap: 50px;  
+}
+.bottom {
+    color: #828282;
+    font-size: 14px;
+    width: 150px;
+    margin: 50px auto;
+}
+button {
+    background-color: #070707;
+    width: 180px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    color: #F6F6F6;
+    font-size: 18px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: 40px auto;
+    display: block;
+    
+}
