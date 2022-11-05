@@ -13,19 +13,33 @@ h1 {
     font-size: 48px;
     font-weight: bold;
     padding-left: 235px;
+    margin-bottom: 50px;
+    margin-top: 15px;
 }
 h3 {
     font-size: 34px;
     font-weight: bold;
     text-align: center;
-    margin-top: 0; 
     padding-top: 100px;
+    margin-bottom: 50px; 
+    
 }
 p {
     margin-top: 0;
     font-size: 18px;
     font-weight: normal;
     text-align: center;
+}
+
+.text {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 30px;
+max-width: 480px;
+margin: 0 auto;
 }
 hr {
     width: 970px;
@@ -95,8 +109,7 @@ a:hover {
     color: #828282;
     font-size: 14px;
     width: 150px;
-    margin: auto;
-    padding-top: 70px;
+    margin: 50px auto;
 }
 button {
     background-color: #070707;
@@ -108,7 +121,7 @@ button {
     font-size: 18px;
     font-family:'Open Sans', sans-serif;
     font-weight: 700;
-    margin: 0 auto 30px auto;
+    margin: 40px auto;
     display: block;
     
 }
